@@ -1,0 +1,36 @@
+.container-map-info {
+    display: flex;
+    background-color: rgb(24, 8, 59);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.sub-container-map-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container-maps-img {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+
+.container-maps-img2   {
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    width: 450px;
+    height: 600px;
+    border: 2px solid red;
+}
+
+.infomap-container {
+    display: flex;
+    align-items: center;
+    color: red;
+}

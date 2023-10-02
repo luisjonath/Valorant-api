@@ -1,0 +1,28 @@
+.navbar-container {
+    display: flex;
+    background: #ff0000;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-navbar {
+    background-color: #052192;
+    color: #ffff;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+    /* border-radius: 20px; */
+    border-color: red;
+    color: red;
+}
+
+.btn-navbar:hover {
+    background-color: #ff0000;
+    border: 2px solid #052192;
+    color: #052192;
+}
+
+  
+  

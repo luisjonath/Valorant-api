@@ -1,0 +1,63 @@
+.container-weapons-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.container-weapons-card img {
+    object-fit: contain;
+    width: 600px;
+    height: 200px;
+    background-color: #332b53;
+
+}
+
+
+
+.subcontainer-card-weapons {
+    
+      
+      text-align: center;
+      
+}
+
+.subcontainer-card-weapons h2 {
+    background-color: red;
+    color: #332b53;
+}
+
+.skinstext {
+
+    text-decoration: none;
+}
+
+@media screen and (max-width: 630px) {
+    .container-weapons-card img {
+        object-fit: contain;
+       width: 400px;
+        height: 200px;
+        background-color: #332b53;
+    
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container-weapons-card img {
+        object-fit: contain;
+       width: 250px;
+        height: 200px;
+        background-color: #332b53;
+    
+    }
+
+    .subcontainer-card-weapons h2 {
+        background-color: red;
+        color: #332b53;
+        width: 250px;
+    }
+}

@@ -1,0 +1,24 @@
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .subcontainer-card {
+      border: 2px solid red;
+      background-color: red;
+      text-align: center;
+  }
+
+  .subcontainer-card img {
+    object-fit: contain;
+    
+  }
+
+  .text-link {
+    text-decoration: none;
+  }

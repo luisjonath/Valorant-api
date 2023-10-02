@@ -1,0 +1,111 @@
+.details-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(24, 8, 59);
+  height: auto;
+  justify-content: space-around;
+  /* align-items: center; */
+  border: 2px solid red;
+}
+
+.detail-img-container {
+  display: flex;
+ justify-content: flex-start;
+   max-height: 1500px;
+   min-height: 300px;
+   min-width: 300px;
+  max-width: 900px; 
+  /* justify-content: center;
+  align-items: center; */
+  /* border: 2px solid red; */
+  border: 2px solid green;
+
+}
+
+.detail-img-container div img {
+  
+  object-fit: cover;
+  /* margin-top: 50px ; */
+  width: 100%;
+  height: auto;
+  flex-grow: 2;
+  /* border: 2px solid red; */
+}
+
+
+
+
+.details-subcontainer {
+  display: flex;
+  flex-direction: row;
+
+  text-align: left;
+  height: auto;
+  min-width: 300px;
+  max-width: 900px;
+  /* font-size: 30px; */
+  font-size: 1.5em;
+  /* margin-top: 10px; */
+  /* margin-bottom: 20px; */
+/* border: 2px solid red; */
+  color: red;
+  /* border: 2px solid green; */
+  flex-grow: 1;
+
+}
+
+.details-sub-container {
+  display: flex;
+}
+
+.details-tcontainer2 {
+  background-color: blue;
+}
+
+.details-tcontainer {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  font-size: 2em;
+  flex-grow: 1;
+
+}
+
+/* .details-container img {
+  min-width: 200px;
+  max-width: 400px;
+  object-fit: contain;
+} */
+
+.abilities {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1600px){
+  
+  
+}
+
+@media screen and (max-width: 1200px){
+  .details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+}
+
+
+@media screen and (max-width: 900px) {
+  .details-subcontainer {
+    font-size: 1em;
+  }
+  
+}

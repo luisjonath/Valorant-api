@@ -1,0 +1,85 @@
+.skindetails-container{
+    display: flex;
+    height: 100%;
+    background-color: rgb(24, 8, 59);
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.skinsdetails-sub {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    /* height: 100%; */
+}
+.img-details-skins {
+    margin-top: 10px;
+}
+.chromas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 1em;
+    gap: 20px;
+    /* height: auto; */
+    /* border: 2px solid red; */
+}
+
+.chroma-text {
+    margin-top: 20px;
+}
+
+.chromas2 {
+    display: flex;
+    /* border: 2px solid red; */
+    
+}
+
+
+.nochromas {
+    color: red;
+}
+
+@media screen and (max-width:1335px) {
+    .chromas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        /* font-size: 13px; */
+        gap: 20px;
+        
+    }
+}
+
+@media screen and (max-width:535px) {
+    .img-details-skins {
+    
+        min-width: 200px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .videos {
+        width: 320px;
+    }
+
+    .chromas {
+        
+        font-size: 0.65em;
+        
+    }
+}
+@media screen and (max-width:335px) {
+    .videos {
+        width:280px
+    }
+}
