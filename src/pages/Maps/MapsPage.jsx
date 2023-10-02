@@ -25,8 +25,7 @@ export const MapsPage = () => {
         fetch(mapsApi)
         .then((response) => response.json())
         .then((data) => setInfoMaps(data.data))
-        .catch((error)=> setError(error))
-        .finally(()=> setLoading(false))
+        
         
     }, [mapsApi]);
     
